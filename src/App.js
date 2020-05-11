@@ -37,7 +37,7 @@ const App=()=> {
     <div className="App">
       <div>
         <form onSubmit={handleSubmit}>
-          <input type="text" onChange={inputChange} className="search-input"></input>
+          <input type="text" onChange={inputChange} className="search-input" placeholder='enter food item'></input>
           <button className="search-btn">Search</button>
         </form>
       </div>

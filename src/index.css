@@ -22,11 +22,10 @@ code {
   border-radius: 6px;
   border: none;
   font-family: fantasy;
-  font-size: 1.2rem;
-  font-weight: bold;
+  font-size: 1.1rem;
 }
-.header{color: white;
-  font-size: 1.4rem;
+.header{color: rgb(152, 144, 144);
+  font-size: 1.5rem;
   font-weight: 500;
 
 }
@@ -101,6 +100,16 @@ color: black;
   }
   .search-btn{
     margin-top: 20px;
+  }
+  .header{color: rgb(152, 144, 144);
+    font-size: 1.2rem;
+    font-weight: 500;
+  
+  }
+  .card img{
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
   }
 
 }
